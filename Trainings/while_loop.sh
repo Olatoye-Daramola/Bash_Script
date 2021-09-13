@@ -1,12 +1,7 @@
 #!/bin/bash
-valid = true
-count = 1
-while[ $valid ]
+x=1
+while [ $x -le 5 ]
 do
-echo $count
-if [ $count -eq 5 ];
-then
-break
-fi
-((count++))
+  echo "Welcome $x times"
+  x=$(( $x + 1 ))
 done
