@@ -1,8 +1,8 @@
-read -p "Enter your type of fruit: " fruit
+read -p "Enter your type of fruit: " FRUIT
 echo ""
-if [ $fruit = apple ]
+if [ $FRUIT = apple ]
 then echo "Make sense"
-elif [ $fruit = banana ]
+elif [ $FRUIT = banana ]
 then echo "Mad o"
 else echo "Ja danu"
 fi
